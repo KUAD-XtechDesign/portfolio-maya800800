@@ -197,12 +197,15 @@ report
 .report {
   border: 1px solid #ccc;
   padding: 40px;
+  background-color:#FFFFFF;
 }
 
-.report .outline {
+.report .outline{
   margin-bottom: 40px;
   display: flex;
 }
+
+
 
 .report .outline .pic {
   width: 45%;
