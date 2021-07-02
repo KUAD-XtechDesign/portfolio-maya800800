@@ -142,19 +142,19 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: rgb(179, 255, 238);
   font-weight: bold;
 }
 
 .report_eye_catch {
   height: 300px;
-  background-image: url(../images/report.jpg);
+  background-image: url(../images/gokuraku.GIF);
   background-size: cover;
   background-position: center center;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: rgb(175, 252, 255);
   font-weight: bold;
 }
 
