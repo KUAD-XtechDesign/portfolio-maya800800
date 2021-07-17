@@ -14,10 +14,12 @@ html {
 
 html,
 body {
+  
   height: 100%;
   font-feature-settings: "palt";
   background-color: rgb(145, 252, 252);
   position: relative;
+  cursor: help;
 }
 
 body {
@@ -191,6 +193,28 @@ footer {
   object-position: center center;
 }
 
+.btn a {
+  width: 300px;
+  background-color: #000;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px auto;
+  padding: 15px 0;
+  box-shadow: 0 5px 0 rgba(0,0,0,0.3);
+}
+
+
+.btn a:hover {
+  box-shadow: none;
+  transform: translate3d(0, 5px, 0);
+  transition-duration: 0.3s;
+  opacity: 0.8;
+}
+
 /*======================================================
 report
 ======================================================*/
@@ -244,6 +268,7 @@ report
   bottom: 0;
   margin: auto;
 }
+
 
 /*======================================================
 汎用
